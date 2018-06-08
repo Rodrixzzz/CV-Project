@@ -1,0 +1,62 @@
+/* Generales */
+body {
+    background-color: #b2bec3;
+}
+ul li{
+    list-style: none;
+}
+
+
+/* Perfil */
+.perfil
+{
+    float: left;
+    width: 20%;
+    height: 400px;
+    background-color: red;
+}
+
+.perfil img {
+    width: 35%;
+    height: 35%;
+    border-radius: 100%;
+    margin-left: 35%;
+    margin-right: 0px;
+}
+
+
+/* Main */
+main {
+    float: left;
+    width: 60%;
+    background-color: white;
+    margin-left: 40px;
+}
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #09B578;
+}
+
+.Quien-soy li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px dotted black;
+}
+
+.lista-imagenes img {
+    height: 30px;
+    width: 30px;
+}
+
+section h2 {
+    color: #09B578;
+    border-bottom:1px solid black;
+    
+}
+/* Footer */
+footer{
+    clear: both;
+    background-color: black;
+    width: 100%;
+}
