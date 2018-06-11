@@ -1,62 +1,129 @@
 /* Generales */
 body {
-    background-color: #b2bec3;
+    background-color: #bdc3c7;
 }
 ul li{
     list-style: none;
+    
 }
-
-
+ul {
+    padding-left: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
 /* Perfil */
 .perfil
 {
     float: left;
-    width: 20%;
-    height: 400px;
-    background-color: red;
+    width: 25%;
+    height: 600px;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 
 .perfil img {
-    width: 35%;
-    height: 35%;
+    width: 45%;
+    height: 45%;
     border-radius: 100%;
-    margin-left: 35%;
-    margin-right: 0px;
+    margin: 10% 0px 30px 38%;
+    border: 1px solid black;
+}
+.perfil a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid #bac1c4;
+    text-align: center;
+    background-color: #ecf0f1;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 120%; 
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px #efefef;
+    transition: background-color 0.3s ,color 0.3s,border-color 0.3s;
+}
+
+.perfil a:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+    font-size: 140%; 
 }
 
 
 /* Main */
 main {
     float: left;
-    width: 60%;
-    background-color: white;
+    width: 68%;
     margin-left: 40px;
+    margin-top: 15px;
 }
 
 section {
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #09B578;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 1px 1px #efefef;
 }
-
-.Quien-soy li {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: 1px dotted black;
-}
-
-.lista-imagenes img {
-    height: 30px;
-    width: 30px;
-}
-
 section h2 {
     color: #09B578;
-    border-bottom:1px solid black;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 15px;
     
 }
-/* Footer */
-footer{
-    clear: both;
-    background-color: black;
-    width: 100%;
+section h3 {
+    color: #09B578;
+    font-size: 25px;
+}
+section p:last-child {
+    padding-bottom: 40px;
+}
+/*Quien Soy*/
+.Quien-soy li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted black;
+    font-size: 120%;
+    letter-spacing:5px;
+    text-transform: uppercase;
+}
+/*Experiencia*/
+/*Formacion*/
+.formacion ul li, .experiencia ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.formacion ul li:last-child li:last-child,
+.experiencia ul li:last-child li:last-child  {
+    padding-bottom: 30px;
+}
+/*Porfolio */
+section .porfolio {
+    margin-bottom: 15px;
+}
+.lista-imagenes img {
+    height: 23%;
+    width: 23%;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+.lista-imagenes li
+{
+    display: inline;
+}
+
+.lista-imagenes img:hover{
+    transform: scale(1.5);
 }
