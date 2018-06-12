@@ -20,8 +20,7 @@ p{
     font-size: 15px;
 }
 /* Perfil */
-.perfil
-{
+.perfil{
     float: left;
     width: 25%;
     height: 600px;
@@ -30,10 +29,10 @@ p{
 }
 
 .perfil img {
-    width: 45%;
-    height: 45%;
+    width: 85%;
+    height: 25%;
     border-radius: 100%;
-    margin: 10% 0px 30px 38%;
+    margin: 10% 0px 0px 14%;
     border: 1px solid black;
 }
 .perfil a{
@@ -119,8 +118,7 @@ section .porfolio {
     transform: scale(1.15);
     transition: transform 0.5s;
 }
-.lista-imagenes li
-{
+.lista-imagenes li{
     display: inline;
 }
 
