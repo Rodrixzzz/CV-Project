@@ -22,7 +22,6 @@ p{
 
 .active {
     opacity: 1;
-    visibility:visible; 
 }
 
 /* Perfil */
@@ -81,8 +80,8 @@ section {
     padding-top: 10px;
     box-shadow: 0px 1px 1px #efefef;
     opacity: 0;
-    visibility: hidden;
-    transition:opacity 1s;
+    transition:opacity 3s linear;
+    -webkit-transition:opacity 3s linear;
 }
 section h2 {
     color: #09B578;

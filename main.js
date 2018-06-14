@@ -18,7 +18,7 @@ function cargarArray()
             console.log(item);
             secciones.push(item);
         }
-       OcultarSecciones(0);
+         OcultarSecciones(0);
     }
     cargado=true;
 }
@@ -28,13 +28,12 @@ function OcultarSecciones(elemento)
     for (var i = 0; i<=3; i++) {
         if (elemento!=i)
         {
-            secciones[i].style.display="none";
+            secciones[i].style.display = "none";
             secciones[i].classList.remove("active");
         }
         else
         {
-            secciones[elemento].style.display="block";
-        //    secciones[elemento].classList.remove("inactive");
+            secciones[elemento].style.display = "block";            
             secciones[elemento].classList.add("active");
         }
     }
