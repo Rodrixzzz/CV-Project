@@ -1,6 +1,7 @@
 /* Generales */
 body {
     background-color: #bdc3c7;
+    box-sizing: border-box;
 }
 ul li{
     list-style: none;
@@ -19,9 +20,19 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+.icono-small
+{
+    width: 5%;
+    height: 5%;
+    display: inline;
+}
+.logo-small
+{
+    width: 22%;
+    height: 22%;
+    display: inline;
+    float: right;
 
-.active {
-    opacity: 1;
 }
 
 /* Perfil */
@@ -79,9 +90,6 @@ section {
     border-radius: 10px;
     padding-top: 10px;
     box-shadow: 0px 1px 1px #efefef;
-    opacity: 0;
-    transition:opacity 3s linear;
-    -webkit-transition:opacity 3s linear;
 }
 section h2 {
     color: #09B578;
@@ -108,7 +116,8 @@ section p:last-child {
 }
 /*Experiencia*/
 /*Formacion*/
-.formacion ul li, .experiencia ul li{
+.formacion ul li, 
+.experiencia ul li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
 }
@@ -116,6 +125,12 @@ section p:last-child {
 .experiencia ul li:last-child li:last-child  {
     padding-bottom: 30px;
 }
+.formacion h3,
+.experiencia h3{
+    border-bottom: 1px dotted #09B578;
+}
+
+
 /*Porfolio */
 section .porfolio {
     margin-bottom: 15px;

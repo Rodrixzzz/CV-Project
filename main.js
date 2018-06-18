@@ -29,12 +29,10 @@ function OcultarSecciones(elemento)
         if (elemento!=i)
         {
             secciones[i].style.display = "none";
-            secciones[i].classList.remove("active");
         }
         else
         {
             secciones[elemento].style.display = "block";            
-            secciones[elemento].classList.add("active");
         }
     }
 }
